@@ -1,0 +1,26 @@
+.banner-container {
+  height: 500px;
+  overflow: hidden; /* optional - hides any content outside of the container */
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/screenrant-best-movies-all-time-dark-knight-my-left-foot-toy-story-lord-of-the-rings-pans-labyrinth-godfather-casablanca-psycho.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  height: 100%;
+  font-size: 1.2rem;
+  text-align: center; /* center the banner title horizontally */
+
+  &__title {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 0; /* remove default margin from h1 element */
+    font-size: 65px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+}
